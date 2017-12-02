@@ -1,0 +1,82 @@
+# Nmap 7.40 scan initiated Sat Dec  2 21:03:38 2017 as: nmap -e tun0 -n4 -sn -oA ../global_results/livehosts 10.10.10.0/24
+Nmap scan report for 10.10.10.2
+Host is up (0.31s latency).
+Nmap scan report for 10.10.10.22
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.25
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.27
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.34
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.37
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.40
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.43
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.46
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.47
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.48
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.51
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.52
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.55
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.56
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.57
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.58
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.59
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.60
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.61
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.62
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.63
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.65
+Host is up (0.30s latency).
+# Nmap done at Sat Dec  2 21:04:07 2017 -- 256 IP addresses (23 hosts up) scanned in 29.32 seconds
+# Nmap 7.40 scan initiated Sat Dec  2 21:05:50 2017 as: nmap -e tun0 -n4 -sn -PR -oA ../global_results/livehosts -append-output 10.10.10.0/24
+# Nmap done at Sat Dec  2 21:05:50 2017 -- 256 IP addresses (0 hosts up) scanned in 0.00 seconds
+# Nmap 7.40 scan initiated Sat Dec  2 21:06:04 2017 as: nmap -e tun0 -n4 -sn -PU -oA ../global_results/livehosts -append-output 10.10.10.0/24
+Nmap scan report for 10.10.10.27
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.34
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.46
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.51
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.52
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.55
+Host is up (0.30s latency).
+Nmap scan report for 10.10.10.56
+Host is up (0.30s latency).
+# Nmap done at Sat Dec  2 21:06:44 2017 -- 256 IP addresses (7 hosts up) scanned in 39.97 seconds
+# Nmap 7.40 scan initiated Sat Dec  2 21:09:22 2017 as: nmap -e tun0 -n4 -sn -PS -oA ../global_results/livehosts -append-output 10.10.10.0/24
+Nmap scan report for 10.10.10.2
+Host is up (0.29s latency).
+Nmap scan report for 10.10.10.27
+Host is up (0.29s latency).
+Nmap scan report for 10.10.10.34
+Host is up (0.36s latency).
+Nmap scan report for 10.10.10.37
+Host is up (0.46s latency).
+Nmap scan report for 10.10.10.40
+Host is up (0.29s latency).
+Nmap scan report for 10.10.10.43
+Host is up (0.29s latency).
+Nmap scan report for 10.10.10.46
+Host is up (0.29s latency).
+# Nmap done at Sat Dec  2 21:09:36 2017 -- 256 IP addresses (7 hosts up) scanned in 13.51 seconds

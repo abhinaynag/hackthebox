@@ -1,0 +1,14 @@
+# Nmap 7.40 scan initiated Sat Dec  2 21:28:37 2017 as: nmap -e tun0 -n4 -sV -v -Pn -oA ../10.10.10.34/10.10.10.34-services 10.10.10.34
+Increasing send delay for 10.10.10.34 from 0 to 5 due to 11 out of 26 dropped probes since last increase.
+Nmap scan report for 10.10.10.34
+Host is up (0.33s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 6.6.1 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.6 ((CentOS))
+111/tcp  open  rpcbind 2-4 (RPC #100000)
+2049/tcp open  nfs_acl 3 (RPC #100227)
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec  2 21:31:24 2017 -- 1 IP address (1 host up) scanned in 167.14 seconds

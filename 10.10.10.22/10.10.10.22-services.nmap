@@ -1,0 +1,13 @@
+# Nmap 7.40 scan initiated Sat Dec  2 21:27:35 2017 as: nmap -e tun0 -n4 -sV -v -Pn -oA ../10.10.10.22/10.10.10.22-services 10.10.10.22
+Nmap scan report for 10.10.10.22
+Host is up (0.29s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http     Apache httpd 2.4.18 ((Ubuntu))
+443/tcp open  ssl/http Apache httpd 2.4.18 ((Ubuntu))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec  2 21:28:09 2017 -- 1 IP address (1 host up) scanned in 34.00 seconds

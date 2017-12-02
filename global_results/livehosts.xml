@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.40 scan initiated Sat Dec  2 21:03:38 2017 as: nmap -e tun0 -n4 -sn -oA ../global_results/livehosts 10.10.10.0/24 -->
+<nmaprun scanner="nmap" args="nmap -e tun0 -n4 -sn -oA ../global_results/livehosts 10.10.10.0/24" start="1512201818" startstr="Sat Dec  2 21:03:38 2017" version="7.40" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="echo-reply" reason_ttl="64"/>
+<address addr="10.10.10.2" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="314687" rttvar="314687" to="1573435"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.22" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="300567" rttvar="300567" to="1502835"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.25" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="300317" rttvar="300317" to="1501585"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.27" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="300194" rttvar="300194" to="1500970"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.34" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301484" rttvar="301484" to="1507420"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.37" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301280" rttvar="301280" to="1506400"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.40" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301034" rttvar="301034" to="1505170"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.43" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="300722" rttvar="300722" to="1503610"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.46" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301204" rttvar="301204" to="1506020"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.47" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="300719" rttvar="300719" to="1503595"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.48" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301104" rttvar="301104" to="1505520"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.51" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="303103" rttvar="98382" to="696631"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.52" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="302809" rttvar="302809" to="1514045"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.55" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301628" rttvar="301628" to="1508140"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.56" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301533" rttvar="301533" to="1507665"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.57" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="302086" rttvar="302086" to="1510430"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.58" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301527" rttvar="301527" to="1507635"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.59" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301721" rttvar="301721" to="1508605"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.60" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301510" rttvar="301510" to="1507550"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.61" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301062" rttvar="301062" to="1505310"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.62" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="301080" rttvar="301080" to="1505400"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.63" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="302518" rttvar="302518" to="1512590"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.65" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="302074" rttvar="302074" to="1510370"/>
+</host>
+<runstats><finished time="1512201847" timestr="Sat Dec  2 21:04:07 2017" elapsed="29.32" summary="Nmap done at Sat Dec  2 21:04:07 2017; 256 IP addresses (23 hosts up) scanned in 29.32 seconds" exit="success"/><hosts up="23" down="233" total="256"/>
+</runstats>
+</nmaprun>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.40 scan initiated Sat Dec  2 21:05:50 2017 as: nmap -e tun0 -n4 -sn -PR -oA ../global_results/livehosts -append-output 10.10.10.0/24 -->
+<nmaprun scanner="nmap" args="nmap -e tun0 -n4 -sn -PR -oA ../global_results/livehosts -append-output 10.10.10.0/24" start="1512201950" startstr="Sat Dec  2 21:05:50 2017" version="7.40" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<runstats><finished time="1512201950" timestr="Sat Dec  2 21:05:50 2017" elapsed="0.00" summary="Nmap done at Sat Dec  2 21:05:50 2017; 256 IP addresses (0 hosts up) scanned in 0.00 seconds" exit="success"/><hosts up="0" down="256" total="256"/>
+</runstats>
+</nmaprun>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.40 scan initiated Sat Dec  2 21:06:04 2017 as: nmap -e tun0 -n4 -sn -PU -oA ../global_results/livehosts -append-output 10.10.10.0/24 -->
+<nmaprun scanner="nmap" args="nmap -e tun0 -n4 -sn -PU -oA ../global_results/livehosts -append-output 10.10.10.0/24" start="1512201964" startstr="Sat Dec  2 21:06:04 2017" version="7.40" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="port-unreach" reason_ttl="63"/>
+<address addr="10.10.10.27" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="296184" rttvar="296184" to="1480920"/>
+</host>
+<host><status state="up" reason="host-prohibited" reason_ttl="63"/>
+<address addr="10.10.10.34" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="296328" rttvar="296328" to="1481640"/>
+</host>
+<host><status state="up" reason="port-unreach" reason_ttl="63"/>
+<address addr="10.10.10.46" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="296214" rttvar="296214" to="1481070"/>
+</host>
+<host><status state="up" reason="port-unreach" reason_ttl="63"/>
+<address addr="10.10.10.51" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="296204" rttvar="296204" to="1481020"/>
+</host>
+<host><status state="up" reason="port-unreach" reason_ttl="127"/>
+<address addr="10.10.10.52" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="296564" rttvar="296564" to="1482820"/>
+</host>
+<host><status state="up" reason="port-unreach" reason_ttl="63"/>
+<address addr="10.10.10.55" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="296212" rttvar="296212" to="1481060"/>
+</host>
+<host><status state="up" reason="port-unreach" reason_ttl="63"/>
+<address addr="10.10.10.56" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="296164" rttvar="296164" to="1480820"/>
+</host>
+<runstats><finished time="1512202004" timestr="Sat Dec  2 21:06:44 2017" elapsed="39.97" summary="Nmap done at Sat Dec  2 21:06:44 2017; 256 IP addresses (7 hosts up) scanned in 39.97 seconds" exit="success"/><hosts up="7" down="249" total="256"/>
+</runstats>
+</nmaprun>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.40 scan initiated Sat Dec  2 21:09:22 2017 as: nmap -e tun0 -n4 -sn -PS -oA ../global_results/livehosts -append-output 10.10.10.0/24 -->
+<nmaprun scanner="nmap" args="nmap -e tun0 -n4 -sn -PS -oA ../global_results/livehosts -append-output 10.10.10.0/24" start="1512202162" startstr="Sat Dec  2 21:09:22 2017" version="7.40" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="reset" reason_ttl="64"/>
+<address addr="10.10.10.2" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="290798" rttvar="218106" to="1163222"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="63"/>
+<address addr="10.10.10.27" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="289407" rttvar="289407" to="1447035"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="63"/>
+<address addr="10.10.10.34" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="356379" rttvar="356379" to="1781895"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="63"/>
+<address addr="10.10.10.37" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="458922" rttvar="458922" to="2294610"/>
+</host>
+<host><status state="up" reason="reset" reason_ttl="127"/>
+<address addr="10.10.10.40" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="294001" rttvar="294001" to="1470005"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="63"/>
+<address addr="10.10.10.43" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="294098" rttvar="294098" to="1470490"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="63"/>
+<address addr="10.10.10.46" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="293980" rttvar="293980" to="1469900"/>
+</host>
+<runstats><finished time="1512202176" timestr="Sat Dec  2 21:09:36 2017" elapsed="13.51" summary="Nmap done at Sat Dec  2 21:09:36 2017; 256 IP addresses (7 hosts up) scanned in 13.51 seconds" exit="success"/><hosts up="7" down="249" total="256"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,30 @@
+# Nmap 7.40 scan initiated Sat Dec  2 21:39:18 2017 as: nmap -e tun0 -n4 -sV -v -Pn -oA ../10.10.10.52/10.10.10.52-services 10.10.10.52
+Increasing send delay for 10.10.10.52 from 0 to 5 due to 299 out of 995 dropped probes since last increase.
+Nmap scan report for 10.10.10.52
+Host is up (0.30s latency).
+Not shown: 981 closed ports
+PORT      STATE SERVICE      VERSION
+53/tcp    open  domain       Microsoft DNS 6.1.7601
+88/tcp    open  kerberos-sec Microsoft Windows Kerberos (server time: 2017-12-02 08:39:37Z)
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+389/tcp   open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: HTB)
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+1433/tcp  open  ms-sql-s     Microsoft SQL Server 2014 12.00.2000
+3268/tcp  open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+8080/tcp  open  http         Microsoft IIS httpd 7.5
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc        Microsoft Windows RPC
+Service Info: Host: MANTIS; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec  2 21:40:40 2017 -- 1 IP address (1 host up) scanned in 81.88 seconds

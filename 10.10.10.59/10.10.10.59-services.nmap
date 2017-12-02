@@ -1,0 +1,18 @@
+# Nmap 7.40 scan initiated Sat Dec  2 21:45:10 2017 as: nmap -e tun0 -n4 -sV -v -Pn -oA ../10.10.10.59/10.10.10.59-services 10.10.10.59
+Nmap scan report for 10.10.10.59
+Host is up (0.29s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           Microsoft ftpd
+80/tcp   open  http          Microsoft IIS httpd 10.0
+81/tcp   open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds  Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+808/tcp  open  ccproxy-http?
+1433/tcp open  ms-sql-s      Microsoft SQL Server 2016 13.00.1601
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec  2 21:45:38 2017 -- 1 IP address (1 host up) scanned in 28.40 seconds

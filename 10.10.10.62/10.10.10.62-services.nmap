@@ -1,0 +1,17 @@
+# Nmap 7.40 scan initiated Sat Dec  2 21:48:55 2017 as: nmap -e tun0 -n4 -sV -v -Pn -oA ../10.10.10.62/10.10.10.62-services 10.10.10.62
+Increasing send delay for 10.10.10.62 from 0 to 5 due to 187 out of 623 dropped probes since last increase.
+Nmap scan report for 10.10.10.62
+Host is up (0.29s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE  VERSION
+4/tcp    open  http     nginx 1.10.3 (Ubuntu)
+22/tcp   open  ssh      OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http     nginx 1.10.3 (Ubuntu)
+88/tcp   open  http     nginx 1.10.3 (Ubuntu)
+8001/tcp open  ssl/http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+9999/tcp open  http     nginx 1.10.3 (Ubuntu)
+Service Info: OSs: Linux, Windows; CPE: cpe:/o:linux:linux_kernel, cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec  2 21:50:21 2017 -- 1 IP address (1 host up) scanned in 85.66 seconds

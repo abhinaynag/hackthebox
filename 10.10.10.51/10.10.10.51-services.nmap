@@ -1,0 +1,16 @@
+# Nmap 7.40 scan initiated Sat Dec  2 21:37:14 2017 as: nmap -e tun0 -n4 -sV -v -Pn -oA ../10.10.10.51/10.10.10.51-services 10.10.10.51
+Increasing send delay for 10.10.10.51 from 0 to 5 due to 322 out of 1072 dropped probes since last increase.
+Nmap scan report for 10.10.10.51
+Host is up (0.31s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.4p1 Debian 10+deb9u1 (protocol 2.0)
+25/tcp  open  smtp    JAMES smtpd 2.3.2
+80/tcp  open  http    Apache httpd 2.4.25 ((Debian))
+110/tcp open  pop3    JAMES pop3d 2.3.2
+119/tcp open  nntp    JAMES nntpd (posting ok)
+Service Info: Host: solidstate; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec  2 21:39:18 2017 -- 1 IP address (1 host up) scanned in 123.49 seconds
